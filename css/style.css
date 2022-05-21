@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1519px;
+    height: 4780px;
+}
+
+header {
+    width: 1519px;
+    height: 747px;
+    background-color: #4a2b33;
+}
+
+.content {
+    width: 1519px;
+    height: 721px;
+    background-color: #ffff;
+}
+
+.menu {
+    width: 1519px;
+    height: 1274px;
+    background-color: #e9e9e3;
+}
+
+.section {
+    width: 1519px;
+    height: 470px;
+    background-color: #AA9E54;
+}
+
+.section-wf {
+    width: 1519px;
+    height: 911px;
+}
+
+.award {
+    width: 1519px;
+    height: 463px;
+    background-color: #4A2B33;
+}
+
+
+/* ------------------ */
+
+.head {
+    width: 1519px;
+    height: 97px;
+    background-color: red;
+}
+
+.slider {
+    width: 1382px;
+    height: 597px;
+    background-color: crimson;
+    margin: 20px auto;
+}
+
+.slider_1 {}
