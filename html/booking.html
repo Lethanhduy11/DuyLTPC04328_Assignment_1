@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" href="/css/style_booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=Shizuru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <div class="head-1">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/html/index.html">Home</a>
+                                <a href="/html/menu.html">Menu</a>
+                                <a href="/html/booking.html">Booking</a>
+                                <a href="/html/about.html">About</a>
+                                <a href="/html/info.html">Info</a>
+
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="logo">
+                        <a href="/html/index.html">
+                            <h1>LATTE CAFE</h1>
+                        </a>
+
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="title-slider">
+                    <h2>Reservations</h2>
+                    <p>For parties of six or more, we recommend <br> making reservations at least two weeks in <br> advance.</p>
+                </div>
+
+            </div>
+        </header>
+
+        <div id="content">
+            <div class="content-item">
+                <div class="left-content">
+                    <form action="">
+                        <div class="left-item">
+                            <div class="left-block">
+                                <label for=" First name" class="text">First name*</label> <br>
+                                <input type="text" class="input-it" required>
+                            </div>
+                            <div class="left-block">
+                                <label for="Last name" class="text">Last name*</label> <br>
+                                <input type="text" class="input-it" required>
+                            </div>
+                        </div>
+                        <div class="left-item">
+                            <div class="left-block">
+                                <label for="Email" class="text">Email*</label> <br>
+                                <input type="email" class="input-it" required>
+                            </div>
+                            <div class="left-block">
+                                <label for="Phone number" class="text">Phone number*</label> <br>
+                                <input type="number" maxlength="256" class="input-it" required>
+                            </div>
+                        </div>
+                        <div class="left-item">
+                            <div class="left-block">
+                                <label for="Number of guests" class="text">Number of guests*</label> <br>
+                                <input type="number" maxlength="256" class="input-it" required>
+                            </div>
+
+                            <div class="left-block">
+                                <label for="Date" class="text">Date*</label> <br>
+                                <input type="date" class="input-it" required>
+                            </div>
+
+                        </div>
+                        <div class="left-item">
+                            <div class="left-block">
+                                <label for="Additional comments" class="text">Additional comments*</label> <br>
+                                <textarea name="Additional comments" id="" maxlength="5000" class="tare-text" required></textarea>
+                            </div>
+
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+                    </form>
+
+                </div>
+                <div class="right-content"><img src="/imgs/booking1.jpg" alt=""></div>
+            </div>
+        </div>
+        <footer>
+            <div class="fot">
+                <div class="fot-1">
+                    <div class="fot-1-a">
+                        <a href="#">About us</a> <br>
+                        <a href="#">Recruit</a>
+                    </div>
+                    <div class="fot-1-b">
+                        <a href="#" style=" text-decoration: none;">Terms of use</a> <br>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="fot-1-c">
+                        <p>Contact: </p>
+                        <p>0123.456.789</p>
+                        <p>Lattecafe@gmail.com</p>
+                    </div>
+                </div>
+                <div class="fot-2">
+                    <p> @Latte Cafe 2022. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
