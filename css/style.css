@@ -108,28 +108,6 @@ footer {
     color: #d27487;
 }
 
-nav {
-    width: 315.35px;
-    height: 24px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    margin-right: 10px;
-    padding: 0px;
-    color: #d27487;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
-}
-
-nav li a:hover {
-    border-bottom: 1px solid #d27487;
-}
 
 .icon i {
     width: 24px;
