@@ -65,7 +65,7 @@ footer {
     color: #d27487;
 }
 
-nav {
+/* nav {
     width: 315.35px;
     height: 24px;
 }
@@ -87,7 +87,7 @@ a {
 
 nav li a:hover {
     border-bottom: 1px solid #d27487;
-}
+} */
 
 .icon i {
     width: 24px;
